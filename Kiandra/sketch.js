@@ -1,4 +1,4 @@
-//veriabke for eyes
+//veriables
 var eyes = 1;
 
 function setup() {
