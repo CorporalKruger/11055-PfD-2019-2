@@ -20,7 +20,7 @@ function draw() {
     line (180, 290, 160, 380);
 
 if (mouseIsPressed){
-    fill (189,68,77);
+    fill (171,23,73);
     rect (155, 195, 88, 120,5);
 }else{
     fill (95,158,160);
