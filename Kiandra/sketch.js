@@ -1,3 +1,5 @@
+var eyes = 1;
+
 function setup() {
 
 //creating the backgound
@@ -5,7 +7,7 @@ createCanvas(400, 400);
 background(250);
 
 //variable for number of eyes
-var eyes = prompt("How many eyes will I have today?", "1-3");
+eyes = prompt("How many eyes will I have today? (1-3)");
 }
 
 function draw() {
@@ -27,12 +29,12 @@ function draw() {
 //eyes
 switch (eyes){
     
-    case (eyes == 1):
+    case "1":
     fill (0);
     ellipse (200, 140, 20, 20);
     break;
 
-    case (eyes == 2):
+    case "2":
     fill (0);
     ellipse (180, 145, 20, 20);
     
@@ -40,7 +42,7 @@ switch (eyes){
     ellipse (220, 145, 20, 20);
     break;
     
-    case (eyes == 3):
+    case "3":
     fill (0);
     ellipse (180, 145, 20, 20);
     
