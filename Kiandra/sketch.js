@@ -25,18 +25,22 @@ function draw() {
     ellipse(200, 150, 100, 100);
    
 //eyes
-if (eyes == 1){
+switch (eyes){
+    
+    case (eyes == 1):
     fill (0);
     ellipse (200, 140, 20, 20);
-    
-} else if (eyes == 2){
+    break;
+
+    case (eyes == 2):
     fill (0);
     ellipse (180, 145, 20, 20);
     
     fill (0);
     ellipse (220, 145, 20, 20);
+    break;
     
-} else if (eyes == 3){
+    case (eyes == 3):
     fill (0);
     ellipse (180, 145, 20, 20);
     
@@ -45,5 +49,6 @@ if (eyes == 1){
     
     fill(0);
     ellipse (200, 130, 20, 20);
+    break;
 }
 }
