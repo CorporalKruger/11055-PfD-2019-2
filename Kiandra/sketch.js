@@ -19,9 +19,14 @@ function draw() {
     line (220, 290, 240, 380);
     line (180, 290, 160, 380);
 
-//body
+if (mouseIsPressed){
+    fill (189,68,77);
+    rect (155, 195, 88, 120,5);
+}else{
     fill (95,158,160);
     rect (155, 195, 88, 120, 5);
+}
+//body
     
 //head
     fill (243,211,191);
