@@ -1,3 +1,4 @@
+//veriabke for eyes
 var eyes = 1;
 
 function setup() {
@@ -6,7 +7,7 @@ function setup() {
 createCanvas(400, 400);
 background(250);
 
-//variable for number of eyes
+//promopt for number of eyes
 eyes = prompt("How many eyes will I have today? (1-3)");
 }
 
